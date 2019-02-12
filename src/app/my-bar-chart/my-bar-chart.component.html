@@ -1,13 +1,9 @@
 <div>
-  <div style="display: block; width: 80%; height: 80%">
-    <canvas id="canvas"> {{ chart }}
-            <!--[datasets]="barChartData"-->
-            <!--[labels]="barChartLabels"-->
-            <!--[options]="barChartOptions"-->
-            <!--[legend]="barChartLegend"-->
-            <!--[chartType]="barChartType"-->
-            <!--(chartClick)="chartClicked($event)"-->
-            <!--(chartHover)="chartHovered($event)">-->
-    </canvas>
-  </div>
+  <mat-card>
+    <canvas id="canvas"> {{ chart }} </canvas>
+  </mat-card>
+  <mat-card>
+    <canvas id="canvas2"
+    (click)="chartClicked($event)"> {{ chart }} </canvas>
+  </mat-card>
 </div>

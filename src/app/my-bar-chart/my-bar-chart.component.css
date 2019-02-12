@@ -1,0 +1,10 @@
+mat-card {
+  resize: both;
+  height: 25%;
+  width: 25%;
+  overflow: hidden;
+  display: inline-block;
+  min-height: 150px;
+  min-width: 300px;
+  vertical-align: top;
+}
